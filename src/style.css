@@ -312,22 +312,34 @@
 
 /* product card sliding in animation */
 .card {
-	width: 100%;
+	width: 96%;
 	position: absolute;
-	left: 0;
+	left: 2%;
 	z-index: 5;
 	bottom: -5%;
 	display: none;
 }
+
 .card #cardImage {
 	width: 100%;
 	height: auto;
+}
+.card .cardImage {
+	border-radius: 50px;
+	-webkit-box-shadow: 2px -5px 7px 0px rgba(66, 68, 90, 1);
+	-moz-box-shadow: 2px -5px 7px 0px rgba(66, 68, 90, 1);
+	box-shadow: 2px -5px 7px 0px rgba(66, 68, 90, 1);
 }
 
 .card img {
 	width: 100%;
 	height: auto;
-	border-radius: 50px;
+	border-radius: 10px;
+}
+.card #moreButton {
+	-webkit-box-shadow: 5px 5px 9px 0px rgba(66, 68, 90, 1);
+	-moz-box-shadow: 5px 5px 9px 0px rgba(66, 68, 90, 1);
+	box-shadow: 5px 5px 9px 0px rgba(66, 68, 90, 1);
 }
 
 .show {

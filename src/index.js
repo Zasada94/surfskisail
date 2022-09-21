@@ -9,17 +9,17 @@ const moreButton = document.getElementById("moreButton");
 
 //toggle product class
 product1.addEventListener("click", () => {
-	cardImage.innerHTML = `<img src='./images/card1.png' alt='card'/>`;
+	cardImage.innerHTML = `<img src='./images/card1.png' alt='card' class="cardImage"/>`;
 	card.classList.add("show");
 	card.classList.remove("hide");
 });
 product2.addEventListener("click", () => {
-	cardImage.innerHTML = `<img src='./images/card2.png' alt='card'/>`;
+	cardImage.innerHTML = `<img src='./images/card2.png' alt='card' class="cardImage"/>`;
 	card.classList.add("show");
 	card.classList.remove("hide");
 });
 product3.addEventListener("click", () => {
-	cardImage.innerHTML = `<img src='./images/card3.png' alt='card'/>`;
+	cardImage.innerHTML = `<img src='./images/card3.png' alt='card' class="cardImage"/>`;
 	card.classList.add("show");
 	card.classList.remove("hide");
 });
