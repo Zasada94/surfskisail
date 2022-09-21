@@ -69,23 +69,24 @@
 .titleContainer div {
 	text-align: center;
 	font-family: "Original Surfer";
+	color: #190566;
 }
 .title {
-	margin-top: 20%;
-	font-size: 40px;
+	margin-top: 15%;
+	font-size: 35px;
 }
 .subTitle {
-	animation: title 4s linear;
+	animation: title 2s linear;
 	width: 100%;
 	margin-top: 10%;
-	font-size: 20px;
+	font-size: 25px;
 }
 
 .hand {
 	position: absolute;
 	bottom: 10%;
 	right: 5%;
-	animation: hand 10s ease-in;
+	animation: hand 5s ease-in;
 	width: 40%;
 }
 
@@ -123,6 +124,8 @@
 	width: 30%;
 	-webkit-filter: brightness(1);
 	cursor: pointer;
+	border-radius: 40px;
+	border: 5px solid #013364;
 }
 
 .shadow1 {
@@ -136,7 +139,7 @@
 	-webkit-box-shadow: 0 0 40px 20px rgba(229, 216, 66, 1);
 	-moz-box-shadow: 0 0 40px 20px rgba(229, 216, 66, 1);
 	box-shadow: 0 0 40px 20px rgba(229, 216, 66, 1);
-	animation: shadow1Animation 10s ease-out;
+	animation: shadow1Animation 5s ease-out;
 }
 .shadow2 {
 	position: absolute;
@@ -150,7 +153,7 @@
 	-webkit-box-shadow: 0 0 40px 20px rgba(229, 216, 66, 1);
 	-moz-box-shadow: 0 0 40px 20px rgba(229, 216, 66, 1);
 	box-shadow: 0 0 40px 20px rgba(229, 216, 66, 1);
-	animation: shadow2Animation 10s ease-out;
+	animation: shadow2Animation 5s ease-out;
 }
 .shadow3 {
 	position: absolute;
@@ -164,7 +167,7 @@
 	-webkit-box-shadow: 0 0 40px 20px rgba(229, 216, 66, 1);
 	-moz-box-shadow: 0 0 40px 20px rgba(229, 216, 66, 1);
 	box-shadow: 0 0 40px 20px rgba(229, 216, 66, 1);
-	animation: shadow3Animation 10s ease-out;
+	animation: shadow3Animation 5s ease-out;
 }
 
 .product:active {
@@ -176,26 +179,26 @@
 	opacity: 1;
 	top: 40%;
 	left: 15%;
-	animation: p1Animation 10s ease-out;
+	animation: p1Animation 5s ease-out;
 }
 #product2 {
 	position: absolute;
 	opacity: 1;
 	top: 65%;
 	left: 23%;
-	animation: p2Animation 10s ease-out;
+	animation: p2Animation 5s ease-out;
 }
 #product3 {
 	position: absolute;
 	opacity: 1;
 	top: 45%;
 	right: 15%;
-	animation: p3Animation 10s ease-out;
+	animation: p3Animation 5s ease-out;
 }
 
 @keyframes p1Animation {
 	0% {
-		-webkit-filter: brightness(0);
+		-webkit-filter: brightness(0.5);
 		opacity: 1;
 		transform: translate(-150%, 0);
 	}
@@ -206,7 +209,7 @@
 		transform: translate(0, 0);
 	}
 	55% {
-		-webkit-filter: brightness(0);
+		-webkit-filter: brightness(0.5);
 	}
 	70% {
 		-webkit-filter: brightness(1);
@@ -215,7 +218,7 @@
 
 @keyframes p2Animation {
 	0% {
-		-webkit-filter: brightness(0);
+		-webkit-filter: brightness(0.5);
 		transform: translate(-200%, 0);
 	}
 	15% {
@@ -225,7 +228,7 @@
 		transform: translate(0, 0);
 	}
 	70% {
-		-webkit-filter: brightness(0);
+		-webkit-filter: brightness(0.5);
 	}
 	85% {
 		-webkit-filter: brightness(1);
@@ -234,7 +237,7 @@
 
 @keyframes p3Animation {
 	0% {
-		-webkit-filter: brightness(0);
+		-webkit-filter: brightness(0.5);
 		transform: translate(150%, 0);
 	}
 	25% {
@@ -244,7 +247,7 @@
 		transform: translate(0, 0);
 	}
 	85% {
-		-webkit-filter: brightness(0);
+		-webkit-filter: brightness(0.5);
 	}
 	100% {
 		-webkit-filter: brightness(1);
