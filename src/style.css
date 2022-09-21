@@ -84,10 +84,11 @@
 
 .hand {
 	position: absolute;
-	bottom: 10%;
+	bottom: 15%;
 	right: 5%;
 	animation: hand 5s ease-in;
-	width: 40%;
+	width: 30%;
+	border-radius: 40%;
 }
 
 @keyframes title {
