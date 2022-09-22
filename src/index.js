@@ -9,7 +9,7 @@ const moreButton = document.getElementById("moreButton");
 
 //toggle product class
 product1.addEventListener("click", () => {
-	cardImage.innerHTML = `<div class="cardDescription">
+	cardImage.innerHTML = `<div class="cardDescription" style="color: white">
 		<div class="descriptionTitle">
 		<span>
 			Surf & wind & kite

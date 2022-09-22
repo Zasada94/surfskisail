@@ -393,3 +393,39 @@
 		transform: translate(0, 95%);
 	}
 }
+
+.cardDescription {
+	position: absolute;
+	top: 10%;
+	left: 5%;
+}
+.descriptionTitle {
+	margin-bottom: 5%;
+}
+.descriptionTitle span {
+	font-family: "Original Surfer";
+	font-size: 2rem;
+}
+.cardDescription .options span {
+	font-family: "Original Surfer";
+	font-size: 1.3rem;
+}
+.cardDescription .options ul {
+	list-style: none;
+	margin-top: 5%;
+}
+.cardDescription .options ul a {
+	font-family: "Original Surfer";
+	text-decoration: none;
+	color: orange;
+	font-size: 1.1rem;
+}
+
+.cardDescription .options ul li {
+	display: inline-block;
+	border: 2px solid orange;
+}
+
+.cardDescription .options ul li:hover {
+	border-color: green;
+}
