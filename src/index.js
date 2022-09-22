@@ -9,7 +9,23 @@ const moreButton = document.getElementById("moreButton");
 
 //toggle product class
 product1.addEventListener("click", () => {
-	cardImage.innerHTML = `<img src='./images/card1.png' alt='card' class="cardImage"/>`;
+	cardImage.innerHTML = `<div class="cardDescription">
+		<div class="descriptionTitle">
+		<span>
+			Surf & wind & kite
+		</span>
+		</div>
+		<div class="options">
+		<span>
+		Surfingowe wyjazdy świadczą:
+		</span>
+			<ul>
+			<a href="https://wavecamp.pl/"><li>wavecamp</li></a>
+				<li></li>
+				<li></li>
+			</ul>
+		</div>
+		</div><img src='./images/card1.png' alt='card' class="cardImage"/>`;
 	card.classList.add("show");
 	card.classList.remove("hide");
 });
