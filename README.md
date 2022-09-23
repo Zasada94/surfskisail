@@ -1,4 +1,4 @@
-# Surf & Ski & Sail (project in development)
+# Surf & Ski & Sail
 
 porównywarka wyjazdowa
 
@@ -7,6 +7,8 @@ porównywarka wyjazdowa
 - [How To Install](#howtoinstall)
 - [Technologies](#technologies)
 - [Functionalities](#functionalities)
+- [Screens](#screenshots)
+- [Live](#live)
 
 ## How To Install
 
@@ -25,4 +27,13 @@ Project was created with:
 
 In project You are able to:
 
-- check out products cards that slide in after a click
+- Choose betweeen three categories of journeys,
+- Check for info about journey organisers in Poland,
+- Surf & Ski & Sail is a mobile app that keeps screen proportions 9:16.
+
+## Screens  
+![Screenshot](./screenshots/1.png)
+
+
+## Live :star2:
+https://zasada94.github.io/surfskisail/
