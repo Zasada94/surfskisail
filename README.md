@@ -4,16 +4,11 @@ porównywarka wyjazdowa
 
 ## Table of contents
 
-- [How To Install](#howtoinstall)
 - [Technologies](#technologies)
 - [Functionalities](#functionalities)
-- [Screens](#screenshots)
+- [Screens](#screens)
 - [Live](#live)
 
-## How To Install
-
-- open main folder with code editor,
-- launch live server or similar
 
 ## Technologies
 
@@ -35,5 +30,5 @@ In project You are able to:
 ![Screenshot](./screenshots/1.png)
 
 
-## Live :star2:
+## Live
 https://zasada94.github.io/surfskisail/
