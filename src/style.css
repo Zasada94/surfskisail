@@ -318,6 +318,7 @@
 	z-index: 5;
 	bottom: -5%;
 	display: none;
+	border-radius: 50px;
 }
 
 .card #cardImage {
@@ -360,18 +361,21 @@
 	position: absolute;
 	bottom: 9%;
 	display: flex;
-	justify-content: space-around;
+	justify-content: left;
+	align-items: stretch;
 	width: 100%;
+	height: 50px;
 }
 .card #backButton {
 	width: 15%;
-	margin: auto 0;
+	margin: auto auto;
 	margin-left: 3%;
 }
 .card #backButton:hover {
 	cursor: pointer;
 }
 .card #moreButton {
+	margin: auto auto;
 	width: 60%;
 	margin-right: 3%;
 }
@@ -395,8 +399,9 @@
 }
 
 .cardDescription {
+	animation: title 1s linear;
 	position: absolute;
-	top: 10%;
+	top: 5%;
 	left: 5%;
 }
 .descriptionTitle {
@@ -413,19 +418,32 @@
 .cardDescription .options ul {
 	list-style: none;
 	margin-top: 5%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: baseline;
 }
 .cardDescription .options ul a {
 	font-family: "Original Surfer";
 	text-decoration: none;
-	color: orange;
+	color: white;
 	font-size: 1.1rem;
 }
 
 .cardDescription .options ul li {
 	display: inline-block;
-	border: 2px solid orange;
+	border: 2px solid #169ca7;
+	border-radius: 10px;
+	height: 30%;
+	margin: 2% 2%;
+	padding: 0.5% 4%;
 }
 
 .cardDescription .options ul li:hover {
-	border-color: green;
+	border-color: #ea5707;
+	transition: 0.5s;
+}
+
+.buttonHide {
+	display: none;
 }

@@ -9,7 +9,12 @@ const moreButton = document.getElementById("moreButton");
 
 //toggle product class
 product1.addEventListener("click", () => {
-	cardImage.innerHTML = `<div class="cardDescription" style="color: white">
+	moreButton.classList.remove("buttonHide");
+	cardImage.innerHTML = `<img src='./images/card1.png' alt='card' class="cardImage"/>`;
+	card.classList.add("show");
+	card.classList.remove("hide");
+	moreButton.addEventListener("click", () => {
+		cardImage.innerHTML = `<div class="cardDescription" style="color: white">
 		<div class="descriptionTitle">
 		<span>
 			Surf & wind & kite
@@ -20,19 +25,46 @@ product1.addEventListener("click", () => {
 		Surfingowe wyjazdy świadczą:
 		</span>
 			<ul>
-			<a href="https://wavecamp.pl/"><li>wavecamp</li></a>
-				<li></li>
-				<li></li>
+			<li><a href="https://wavecamp.pl/">wavecamp</a></li>
+			<li><a href="https://surftravel.pl/">surftravel</a></li>
+			<li><a href="https://surfwyjazdy.pl/">surfwyjazdy</a></li>
+			<li><a href="https://easy-surf.com/">easy-surf</a></li>
+			<li><a href="https://surfski.pl/">surfski</a></li>
+			<li><a href="https://surf-4-life.pl/">surf-4-life</a></li>
 			</ul>
 		</div>
 		</div><img src='./images/card1.png' alt='card' class="cardImage"/>`;
-	card.classList.add("show");
-	card.classList.remove("hide");
+		moreButton.classList.add("buttonHide");
+	});
 });
 product2.addEventListener("click", () => {
+	moreButton.classList.remove("buttonHide");
 	cardImage.innerHTML = `<img src='./images/card2.png' alt='card' class="cardImage"/>`;
 	card.classList.add("show");
 	card.classList.remove("hide");
+	moreButton.addEventListener("click", () => {
+		cardImage.innerHTML = `<div class="cardDescription" style="color: white">
+		<div class="descriptionTitle">
+		<span>
+			Sail & Cruise
+		</span>
+		</div>
+		<div class="options">
+		<span>
+		Żeglarskie wyjazdy oferują:
+		</span>
+			<ul>
+			<li><a href="https://wavecamp.pl/">wavecamp</a></li>
+			<li><a href="https://surftravel.pl/">surftravel</a></li>
+			<li><a href="https://surfwyjazdy.pl/">surfwyjazdy</a></li>
+			<li><a href="https://easy-surf.com/">easy-surf</a></li>
+			<li><a href="https://surfski.pl/">surfski</a></li>
+			<li><a href="https://surf-4-life.pl/">surf-4-life</a></li>
+			</ul>
+		</div>
+		</div><img src='./images/card2.png' alt='card' class="cardImage"/>`;
+		moreButton.classList.add("buttonHide");
+	});
 });
 product3.addEventListener("click", () => {
 	cardImage.innerHTML = `<img src='./images/card3.png' alt='card' class="cardImage"/>`;
@@ -44,7 +76,4 @@ product3.addEventListener("click", () => {
 backButton.addEventListener("click", () => {
 	card.classList.remove("show");
 	card.classList.add("hide");
-});
-moreButton.addEventListener("click", () => {
-	console.log("klik poprawny");
 });
